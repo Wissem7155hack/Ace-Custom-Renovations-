@@ -1,0 +1,112 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A cinematic shot of a modern, renovated kitchen with dark cabinets and warm lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1682888813913-e13f18692019?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc3MTM4OTEzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern kitchen"
+    },
+    {
+      "id": "service-kitchen",
+      "description": "Featured image for kitchen renovations, showing a large, stylish kitchen island.",
+      "imageUrl": "https://images.unsplash.com/photo-1586309183556-562a7c0ada4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8a2l0Y2hlbiUyMGlzbGFuZHxlbnwwfHx8fDE3NzE0NDQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen island"
+    },
+    {
+      "id": "service-bathroom",
+      "description": "Image for bathroom remodels, showcasing a modern walk-in shower.",
+      "imageUrl": "https://images.unsplash.com/photo-1600488999585-e4364713b90a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtb2Rlcm4lMjBiYXRocm9vbXxlbnwwfHx8fDE3NzE0NDQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern bathroom"
+    },
+    {
+      "id": "service-basement",
+      "description": "Image for basement development, with a cozy home theater setup.",
+      "imageUrl": "https://images.unsplash.com/photo-1611755489400-3c53602ab783?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxob21lJTIwdGhlYXRlcnxlbnwwfHx8fDE3NzEzMzE0Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home theater"
+    },
+    {
+      "id": "service-flooring",
+      "description": "Image for flooring & tile, showing newly installed hardwood floors.",
+      "imageUrl": "https://images.unsplash.com/photo-1560185008-b033106af5c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXJkd29vZCUyMGZsb29yfGVufDB8fHx8MTc3MTQ0NDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hardwood floor"
+    },
+    {
+      "id": "service-painting",
+      "description": "Image for painting & drywall, a person neatly painting a wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbnRlcmlvciUyMHBhaW50aW5nfGVufDB8fHx8MTc3MTQ0NDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interior painting"
+    },
+    {
+      "id": "service-decks",
+      "description": "Image for decks & outdoor spaces, a beautiful wooden deck with outdoor furniture.",
+      "imageUrl": "https://images.unsplash.com/photo-1599670067044-8022593887d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b29kZW4lMjBkZWNrfGVufDB8fHx8MTc3MTM0Njc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wooden deck"
+    },
+    {
+      "id": "project-1",
+      "description": "A featured project image of a contemporary living room.",
+      "imageUrl": "https://images.unsplash.com/photo-1564078516393-cf04bd966897?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsaXZpbmclMjByb29tfGVufDB8fHx8MTc3MTQwNjM5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room"
+    },
+    {
+      "id": "project-2",
+      "description": "A featured project image of a remodeled bathroom with a freestanding tub.",
+      "imageUrl": "https://images.unsplash.com/photo-1688576062319-f059c86aa5c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcmVlc3RhbmRpbmclMjB0dWJ8ZW58MHx8fHwxNzcxNDQ0OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "freestanding tub"
+    },
+    {
+      "id": "project-3",
+      "description": "A featured project image of an open-concept kitchen and dining area.",
+      "imageUrl": "https://images.unsplash.com/photo-1669317139155-912572c38362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvcGVuJTIwY29uY2VwdHxlbnwwfHx8fDE3NzE0NDQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "open concept"
+    },
+    {
+      "id": "why-choose-us-image",
+      "description": "An image for the 'Why Choose Us' section, showing a contractor smiling.",
+      "imageUrl": "https://images.unsplash.com/photo-1659353587484-a83a0ddf8aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMGNvbnRyYWN0b3J8ZW58MHx8fHwxNzcxNDQ0OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy contractor"
+    },
+    {
+      "id": "about-story-image",
+      "description": "An image for the 'About Us' story section, showing the founder or team.",
+      "imageUrl": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb25zdHJ1Y3Rpb24lMjB0ZWFtfGVufDB8fHx8MTc3MTM0NzE0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "construction team"
+    },
+    {
+      "id": "page-hero-services",
+      "description": "Hero background for services page.",
+      "imageUrl": "https://images.unsplash.com/photo-1764737734436-7eb904d3a4ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0b29scyUyMGJsdWVwcmludHxlbnwwfHx8fDE3NzE0NDQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tools blueprint"
+    },
+    {
+      "id": "page-hero-projects",
+      "description": "Hero background for projects page.",
+      "imageUrl": "https://images.unsplash.com/photo-1704162817382-d08af3727fad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxob3VzZSUyMGZyYW1lfGVufDB8fHx8MTc3MTQ0NDkwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "house frame"
+    },
+    {
+      "id": "page-hero-gallery",
+      "description": "Hero background for gallery page.",
+      "imageUrl": "https://images.unsplash.com/photo-1771098206641-602bd9116f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXNpZ24lMjBzd2F0Y2h8ZW58MHx8fHwxNzcxNDQ0OTA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "design swatch"
+    },
+    {
+      "id": "page-hero-about",
+      "description": "Hero background for about page.",
+      "imageUrl": "https://images.unsplash.com/photo-1590880795696-20c7dfadacde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b3Jrc2hvcCUyMHRvb2xzfGVufDB8fHx8MTc3MTM5NDY3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "workshop tools"
+    },
+    {
+      "id": "page-hero-contact",
+      "description": "Hero background for contact page.",
+      "imageUrl": "https://images.unsplash.com/photo-1760360059351-11e70b0025e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGhvbmUlMjBlbWFpbHxlbnwwfHx8fDE3NzE0NDQ5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone email"
+    },
+    {
+      "id": "page-hero-ai",
+      "description": "Hero background for AI suggestions page.",
+      "imageUrl": "https://images.unsplash.com/photo-1761740533449-b8d4385e60b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMG5ldXJhbHxlbnwwfHx8fDE3NzEzOTI2MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract neural"
+    }
+  ]
+}

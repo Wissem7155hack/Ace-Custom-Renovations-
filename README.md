@@ -81,7 +81,7 @@ Once the repository is on GitHub and the build script works locally, the project
 This app can also be hosted on GitHub Pages by exporting a fully static site:
 
 1. Add `output: 'export'` to `next.config.mjs` (already done).
-2. Run `npm run export` – the build will output static files under `.next/output/export` because `output: 'export'` is set in `next.config.mjs`.
+2. Run `npm run export` – the build will output static files under `.next/output/export` because `output: 'export'` is set in `next.config.mjs`. **Note** that `next/image` is configured with `unoptimized: true` in production, which disables the Image Optimization API and avoids errors during export.
 3. Commit the exported files to the `gh-pages` branch or use the `gh-pages` npm package to push them. For example:
 
    ```bash

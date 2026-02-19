@@ -9,6 +9,9 @@ const __dirname = dirname(__filename);
 const nextConfig = {
     reactStrictMode: true,
     output: 'export', // enable static HTML export for GitHub Pages
+    // GitHub Pages serves from repo name subpath
+    basePath: '/Ace-Custom-Renovations-',
+    assetPrefix: '/Ace-Custom-Renovations-',
     images: {
         domains: ["images.unsplash.com"],
     },

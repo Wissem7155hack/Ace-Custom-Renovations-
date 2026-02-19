@@ -81,16 +81,20 @@ Once the repository is on GitHub and the build script works locally, the project
 This app can also be hosted on GitHub Pages by exporting a fully static site:
 
 1. Add `output: 'export'` to `next.config.mjs` (already done).
-2. Run `npm run export` – the generated files appear in an `out/` folder.
-3. Commit the `out/` folder to the `gh-pages` branch or use the `gh-pages` npm package:
+2. Run `npm run export` – the build will output static files under `.next/output/export` because `output: 'export'` is set in `next.config.mjs`.
+3. Commit the exported files to the `gh-pages` branch or use the `gh-pages` npm package to push them. For example:
 
    ```bash
    npm install --save-dev gh-pages
-   # add script:
-   #   "deploy:gh": "npm run export && gh-pages -d out"
+   # script already added to package.json:
+   #   "deploy:gh": "npm run export && gh-pages -d .next/output/export"
    
    npm run deploy:gh
    ```
+
+   (alternatively, copy `.next/output/export` content into a separate `out/` directory before deploying.)
+
+**Important:** because the site will be served at `https://wissem7155hack.github.io/Ace-Custom-Renovations-/`, the project is configured with `basePath` and `assetPrefix` in `next.config.mjs`. This ensures all links and assets use the correct subpath.
 
 4. In your repository settings > Pages, set the source to `gh-pages` branch.
 

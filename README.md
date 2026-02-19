@@ -75,3 +75,23 @@ jobs:
 - [x] TailwindCSS configured and compiled during build (existing setup is correct).
 
 Once the repository is on GitHub and the build script works locally, the project is ready for deployment. Just connect it to a hosting platform of your choice and trigger a build!
+
+### GitHub Pages (static export)
+
+This app can also be hosted on GitHub Pages by exporting a fully static site:
+
+1. Add `output: 'export'` to `next.config.mjs` (already done).
+2. Run `npm run export` – the generated files appear in an `out/` folder.
+3. Commit the `out/` folder to the `gh-pages` branch or use the `gh-pages` npm package:
+
+   ```bash
+   npm install --save-dev gh-pages
+   # add script:
+   #   "deploy:gh": "npm run export && gh-pages -d out"
+   
+   npm run deploy:gh
+   ```
+
+4. In your repository settings > Pages, set the source to `gh-pages` branch.
+
+> Note: Dynamic features such as API routes, server-side rendering, or `next/image` optimization won’t work on GH Pages; only plain static markup and assets are supported. The existing pages are mostly static, so they should export fine.

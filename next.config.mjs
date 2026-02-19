@@ -8,6 +8,7 @@ const __dirname = dirname(__filename);
 
 const nextConfig = {
     reactStrictMode: true,
+    output: 'export', // enable static HTML export for GitHub Pages
     images: {
         domains: ["images.unsplash.com"],
     },

@@ -12,10 +12,10 @@ const ghBase = '/Ace-Custom-Renovations-';
 
 const nextConfig = {
     reactStrictMode: true,
-    output: 'export', // enable static HTML export for GitHub Pages
+    output: 'export', // enable static HTML export
     // apply basePath/assetPrefix only in production so localhost works at /
-    basePath: isProd ? ghBase : '',
-    assetPrefix: isProd ? ghBase : '',
+    basePath: '',
+    assetPrefix: '',
     images: {
         domains: ["images.unsplash.com"],
         // when exporting to static files we cannot use the image optimization API
